@@ -8,21 +8,37 @@ body {
   background-image: url("./../../img/wov.png");
 }
 
+h1 {
+  text-align: center;
+  line-height: 200px;
+  color: white;
+  text-shadow: 1px 1px gray;
+  font-size: 60px;
+  display: inline-block;
+  width: 80%;
+  height: 180px;
+  background-image: url("./../../img/wov.png");
+
+}
+
 .container {
   font-family: 'Taviraj', sans-serif;
-  background:$persiagreen;
   padding: 40px 80px;
   text-align: center;
+  background-image: url("./../../img/cork-wallet.png");
+  border: 2px solid $seablue;
 
   #username-find {
     background: $seablue;
     color: white;
     text-align:center;
   }
+
   #username-find:hover {
     background: $seaweed;
   }
+
   .showUser {
-    background: $persiagreen;
+    margin-top: 20px;
   }
 }

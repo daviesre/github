@@ -8,8 +8,8 @@ GitHub.prototype.getRepos = function(username) {
   $.get('https://api.github.com/users/' + username + '/repos?type?access_token=' + apiKey).then(function(response){
     for (var i = 0; i < response.length; i++) {
       $('.showUser').append("<li><strong>Repository</strong>: " + response[i].name + "</li>");
-      $('.showUser').append("<li>Description: " + response[i].description + "</li>");
-      $('.showUser').append("<li>URL: " + response[i].url + "</li>");
+      $('.showUser').append("<li><strong>Description</strong>: " + response[i].description + "</li>");
+      $('.showUser').append("<li><strong>URL</strong>: " + response[i].url + "</li>");
       console.log(response);
     }
   }).fail(function(error){
