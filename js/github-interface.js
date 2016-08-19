@@ -1,16 +1,10 @@
-var apiKey = require('./../.env').apiKey;
+var GitHub = require('./../js/github.js').githubModule;
 
 $(document).ready(function() {
+  var currentGithubObject = new GitHub();
   $("#username-find").click(function() {
-    console.log("hello");
-    var username = $("#username").val();
-    $("#username").val("");
-    exports.getRepos = function(){
-      $.get('https://api.github.com/users/daneden?access_token=' + apiKey).then(function(response){
-      console.log(response);
-      }).fail(function(error){
-        console.log(error.responseJSON.message);
-      });
-    };
+    var username = $('#username').val();
+    $('#username').val("");
+    currentGithubObject.getRepos(username);
   });
 });
