@@ -1,5 +1,28 @@
-$blue: #c6d8d3;
+$pale: #f0f3bd;
+$lightgreen: #02c39a;
+$persiagreen: #00a896;
+$seaweed: #028090;
+$seablue: #05668d;
 
 body {
-  background-color: $blue;
+  background-image: url("./../../img/wov.png");
+}
+
+.container {
+  font-family: 'Taviraj', sans-serif;
+  background:$persiagreen;
+  padding: 40px 80px;
+  text-align: center;
+
+  #username-find {
+    background: $seablue;
+    color: white;
+    text-align:center;
+  }
+  #username-find:hover {
+    background: $seaweed;
+  }
+  .showUser {
+    background: $persiagreen;
+  }
 }

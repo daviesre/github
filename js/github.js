@@ -10,7 +10,6 @@ GitHub.prototype.getRepos = function(username) {
       $('.showUser').append("<li><strong>Repository</strong>: " + response[i].name + "</li>");
       $('.showUser').append("<li>Description: " + response[i].description + "</li>");
       $('.showUser').append("<li>URL: " + response[i].url + "</li>");
-      $('.showUser').append(
       console.log(response);
     }
   }).fail(function(error){
