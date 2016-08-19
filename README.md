@@ -6,7 +6,7 @@
 
 ## Description
 
-_ Allows the user to enter any Github username and it will list all repos, repo descriptions, and urls for that user._
+_Allows the user to enter any Github username and it will list all repos, repo descriptions, and urls for that user._
 
 ## Setup/Installation Requirements
 1. Download node.js
@@ -23,7 +23,12 @@ _No known bugs._
 _Contact the author at [russdavies392@gmail.com]_
 
 ## Technologies Used
-* JavaScript * node.js * bower * sass * gulp
+* JavaScript 
+* node.js 
+* bower  
+* sass 
+* gulp
+* 
 ### License
 
 *MIT License
