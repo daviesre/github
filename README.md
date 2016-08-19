@@ -20,7 +20,7 @@ _No known bugs._
 
 ## Support and contact details
 
-_Contact the author at [russdavies392@gmail.com]_
+_Contact the author at russdavies392@gmail.com_
 
 ## Technologies Used
 * JavaScript 
@@ -28,9 +28,9 @@ _Contact the author at [russdavies392@gmail.com]_
 * bower  
 * sass 
 * gulp
-* 
+
 ### License
 
-*MIT License
+* MIT License
 
-*Copyright (c) [2016]
+* Copyright (c) [2016]
